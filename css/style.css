@@ -55,6 +55,7 @@ body {
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
+    margin-top: 37.5px;
     display: flex;
     justify-content: space-between;
 }
@@ -67,11 +68,39 @@ body {
 }
 
 /****** Hebergements ***********/
+
+
 .hebergements {
     width: 65%;
 }
 
+.hebergements-cards .card-main {  
+    display: flex;
+    flex-wrap: wrap;                  /*  ICCCCCCCCCCCI */
+    align-items: center;
+    display: grid;
+    gap: 30px;
+
+}
+
+.hebergements-cards img {
+    width: 33%;
+    height: 134px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.hebergements-cards .card-kontent {
+    width: 67%;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
 /****** Populaires ***********/
+
 .populaires {
     width: 32%;
 }
@@ -102,22 +131,6 @@ body {
     justify-content: space-between;
     box-sizing: border-box;
 }
-
-.populaires-cards .card-title {
-    margin-top: 10px;
-    margin-bottom: 4px;
-}
-
-.populaires-cards .card-subtitle {
-    margin: 0;
-}
-
-.populaires-cards .card-rating {
-    margin-bottom: 5px;
-}
-
-
-
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -159,4 +172,13 @@ body {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+
+
+     /* MOI */
+}
+
+a {
+
+text-decoration: none;
+
 }

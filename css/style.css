@@ -32,9 +32,9 @@ a:visited {
 
 
 body {
-    display: flex;
     justify-content: center;
 }
+
 
 
 .section-title {
@@ -90,8 +90,6 @@ body {
 @media (max-width: 767.98px) {
 
 }
-
-
 
 
 @media screen and (max-width: 768px) { /* BARRE BLEUE NE MARCHE PAS */

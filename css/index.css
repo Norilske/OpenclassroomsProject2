@@ -1,4 +1,7 @@
 :root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
     --color-primary: #0065FC;
     --color-secondary: black;
     --color-tertiary: white;
@@ -7,6 +10,34 @@
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+}
+
+
+.fa-solid {
+    color: var(--main-color);
+}
+
+a:visited {
+    color: black;
+  }
+
+  p { 
+    font-family: 'Raleway';
+    font-style: normal;
+    color: black;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    }
+
+.euro {
+    font-weight: 700;
+}
+
+.neutralStar {
+    color: var(--main-bg-color)
 }
 
 

@@ -346,6 +346,12 @@ input[type="text"] {
     cursor: pointer;
 }
 
+.afficher:hover {
+    text-decoration: underline;
+}
+    
+
+
 /********* Populaires ***********/
 
 .card {
@@ -715,7 +721,7 @@ input[type="text"] {
 @media (max-width: 768px) {
     .filtre {
         flex-wrap: wrap;
-        margin-top: -5px;
+        margin-top: 25px;
         width: 100%;
         flex-direction: column;
     }
@@ -753,6 +759,7 @@ input[type="text"] {
 
     .hebergements {
         order: 2;
+        background-color: white;
     }
 }
 
